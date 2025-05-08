@@ -24,6 +24,12 @@ sudo rabbitmqctl join_cluster <RABBIT@HOSTNAME>
 ```
 ## Quorum Queues
 
+Rebalance the Quorum Qeues Leader in Cluster Nodes
+
+```bash
+sudo rabbitmq-queues TODO
+```
+
 A Script to grow the quorum queues to all available RabbitMQ nodes in Cluster:
 ```bash
 #!/bin/bash

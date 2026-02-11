@@ -20,3 +20,13 @@ git fetch origin
 #Merge main into current feature branch
 git merge origin/main
 ```
+
+Reset your local main branch to match the remote main branch:
+```bash
+git pull --rebase origin main
+```
+
+Error after commit, push and undo last commit
+```bash
+git push --force origin feature/new_rmq_prod_nodes
+```

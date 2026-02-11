@@ -1,2 +1,5 @@
 # Ignore Certificate files 
 *.pem
+
+# ignore .vscode config folder
+.vscode
